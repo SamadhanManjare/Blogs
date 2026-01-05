@@ -45,7 +45,7 @@ export default function AppContextProvider({ children }) {
     setPage(page);
 
   };
-
+  // Context Value
   const value = {
     posts,
     setPosts,

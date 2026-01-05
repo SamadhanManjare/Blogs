@@ -4,12 +4,15 @@ import Header from "../Components/Header";
 import Blogs from "../Components/Blogs";
 import Pagination from "../Components/Pagination";
 
+
+
 const CategoryPage = () => {
   const location = useLocation();
   const category = location.pathname.split("/").at(-1).replaceAll("-", " ");
 
   const navigate = useNavigate();
   return (
+    // Category Page displaying blogs of a specific category
     <div>
       <Header />
       <div className="mt-[100px] -mb-[50px] max-w-2xl mx-auto flex items-center space-x-2 w-11/12">

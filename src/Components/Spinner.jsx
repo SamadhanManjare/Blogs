@@ -7,6 +7,7 @@ const Spinner = () => {
       <div className='spinner'></div>
       <p className='font-bold text-lg'>Loading...</p>
     </div>
+    // Spinner component with loading text
   )
 }
 

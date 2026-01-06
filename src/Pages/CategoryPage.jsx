@@ -24,7 +24,9 @@ const CategoryPage = () => {
       </div>
       <Blogs />
       <Pagination />
+      
     </div>
+    // End of Category Page
   );
 };
 

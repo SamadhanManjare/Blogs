@@ -6,11 +6,13 @@ import Pagination from '../Components/Pagination'
 
 const Home = () => {
     return (
+        // Home Page displaying header, blogs, and pagination
         <div>
             <Header />
             <Blogs />
             <Pagination />
         </div> 
+        
     )
 }
 

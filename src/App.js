@@ -8,6 +8,7 @@ import { AppContext } from "./Context/AppContext";
 import { Routes, Route, useLocation, useSearchParams } from "react-router-dom";
 
 const App = () => {
+  
   const { fetchBlogPosts } = useContext(AppContext);
   const location = useLocation();
   const [searchParams, setSearchParams] = useSearchParams();
@@ -31,6 +32,7 @@ const App = () => {
   }, [location.pathname, location.search]);
 
   return (
+    //  //  Defining application routes
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/blog/:blogId" element={<BlogPage />} />

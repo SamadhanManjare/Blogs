@@ -11,7 +11,7 @@ const TagPage = () => {
   const navigate = useNavigate();
   return (
     // Tag Page displaying blogs of a specific tag
-    // with a back button to return to the previous page
+   
     <div className="mt-[100px]">
       <Header />
       <div className="max-w-2xl mx-auto flex items-center space-x-2 w-11/12 -mb-[50px]">

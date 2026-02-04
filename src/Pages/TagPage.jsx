@@ -5,6 +5,7 @@ import Blogs from "../Components/Blogs";
 import Pagination from "../Components/Pagination";
 
 const TagPage = () => {
+  // Extract tag from URL
   const location = useLocation();
   const tag = location.pathname.split("/").at(-1).replaceAll("-", " ");
 

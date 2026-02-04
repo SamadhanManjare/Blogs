@@ -6,6 +6,7 @@ import { HashRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
+  // Wrapping the App with HashRouter and AppContextProvider
   <HashRouter>
     <AppContextProvider>
       <App />

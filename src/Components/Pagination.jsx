@@ -17,6 +17,7 @@ const Pagination = () => {
         )}
 
         {page < totalPages && (
+          // Next button to navigate to the next page, disabled if on the last page
           <button
             className="rounded-md border-gray-300 border-2 px-4 py-1"
             onClick={() => handlerPageChange(page + 1)}

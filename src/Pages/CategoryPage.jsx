@@ -12,8 +12,8 @@ const CategoryPage = () => {
 
   const navigate = useNavigate();
   return (
-    // Category Page displaying blogs of a specific category
-    // with a back button to return to the previous page
+    // Category Page displaying blogs of a specific category with a back button to return to the previous page
+    // 
     <div>
       <Header />
       <div className="mt-[100px] -mb-[50px] max-w-2xl mx-auto flex items-center space-x-2 w-11/12">

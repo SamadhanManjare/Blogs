@@ -8,6 +8,7 @@ import { AppContext } from "./Context/AppContext";
 import { Routes, Route, useLocation, useSearchParams } from "react-router-dom";
 
 const App = () => {
+  // Accessing the fetchBlogPosts function from the AppContext
   
   const { fetchBlogPosts } = useContext(AppContext);
   const location = useLocation();

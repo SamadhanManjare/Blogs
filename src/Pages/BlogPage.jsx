@@ -6,6 +6,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import BlogDetails from "../Components/BlogDetails";
 
 const BlogPage = () => {
+  // Blog Page displaying details of a specific blog post along with related blogs and a back button to return to the previous page
   const { loading, setLoading } = useContext(AppContext);
   const [blog, setBlog] = useState(null);
   const [reletedBlogs, setReletedBlogs] = useState([]);

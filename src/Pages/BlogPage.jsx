@@ -16,6 +16,7 @@ const BlogPage = () => {
   const blogId = location.pathname.split("/").at(-1);
 
   async function fetchReleatedBlogs() {
+    // Fetches the details of a specific blog post and related blogs based on the blog ID extracted from the URL, and updates the state accordingly
     setLoading(true);
     const url = `${baseUrl}?blogId=${blogId}`;
 
